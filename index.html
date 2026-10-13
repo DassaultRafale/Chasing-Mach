@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chasing Mach — aviation photography capturing the beauty and power of flight.">
+  <title>Chasing Mach — Aviation Photography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Chasing Mach home"><img class="brand-logo" src="images/chasing-mach-logo.png" alt="Chasing Mach with a Sukhoi Su-30 outline"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open navigation menu"><span></span><span></span></button>
+      <div class="nav-actions">
+        <div class="nav-links" id="site-menu">
+          <a href="#top">Home</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <!-- Replace this background image URL with your own aircraft photo. -->
+      <div class="hero-image hero-backdrop" aria-hidden="true"></div>
+      <div class="hero-image hero-photo" role="img" aria-label="A refueling tanker flying with four fighter jets"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content container">
+        <h1 id="hero-title">Capturing<br>the <em class="white-highlight">Skies.</em></h1>
+        <p class="hero-copy">A closer look at the machines, moments, and magnificent places that make us look up.</p>
+        <a class="button button-red" href="#gallery">EXPLORE GALLERY <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="gallery section container" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span></span> SELECTED FRAMES</p><h2 id="gallery-title">The <em class="white-highlight">Gallery</em></h2></div>
+      </div>
+      <div class="photo-grid">
+        <!-- Replace these placeholder photo URLs with your own images when ready. -->
+        <a class="category-card-link" href="military-aviation.html" aria-label="Open the Military Aviation portfolio">
+          <figure class="photo-card category-card">
+            <img src="images/military-aviation.jpg" alt="Military aircraft flying through the sky" loading="lazy">
+            <figcaption><span>MILITARY AVIATION</span><span>VIEW CATEGORY ↗</span></figcaption>
+          </figure>
+        </a>
+        <a class="category-card-link" href="civil-aviation.html" aria-label="Open the Civil Aviation portfolio">
+          <figure class="photo-card category-card civil-card">
+            <img src="images/Civil%20Aviation/DSC_1135%20(1).jpg" alt="Atlas Air Boeing 747 photographed in flight" loading="lazy">
+            <figcaption><span>CIVIL AVIATION</span><span>VIEW CATEGORY ↗</span></figcaption>
+          </figure>
+        </a>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="about-inner container">
+        <figure class="about-photo about-photo-portrait">
+          <img src="images/about/rohan-portrait.png" alt="Portrait of Rohan" loading="lazy">
+        </figure>
+        <div class="about-copy">
+          <p class="eyebrow"><span></span> THE PERSON BEHIND THE LENS</p>
+          <h2 id="about-title">A life spent<br>looking <em class="white-highlight">up.</em></h2>
+          <p>Rohan is an amateur aviation photographer and aviation enthusiast originally from Kolhapur, India. He now lives in Esslingen, Germany. For the past six years, he has photographed various aircrafts and captured the moments that keep him looking skyward.</p>
+          <p>An automotive engineer by profession, Rohan is fascinated by the design and character of machines, whether on the road or in the air. His favorite aircraft is the Sukhoi Su-30MKI. Through Chasing Mach, he shares a selection of his aviation photographs and the aircraft, places, and moments behind them.</p>
+          <a class="text-link" href="#gallery">EXPLORE THE PORTFOLIO <span aria-hidden="true">↗</span></a>
+        </div>
+        <figure class="about-photo about-photo-flight">
+          <img src="images/about/rohan-in-flight.jpg" alt="Rohan in an aircraft cockpit wearing a headset" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <section class="contact section container" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Let's take<br>this <em class="white-highlight">further.</em></h2>
+      <p>Interested in my work, want to collaborate, or just talk about a shared passion? Feel free to get in touch.</p>
+      <a class="button button-outline email-link" href="mailto:rohan.su30mki@gmail.com">
+        <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><rect x="3.5" y="5.5" width="17" height="13" rx="2"></rect><path d="m4.5 7 7.5 6 7.5-6"></path></svg>
+        <span>rohan.su30mki@gmail.com</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner container"><a class="brand" href="#top" aria-label="Chasing Mach home"><img class="brand-logo" src="images/chasing-mach-logo.png" alt="Chasing Mach with a Sukhoi Su-30 outline"></a><p>© <span id="year">2026</span> CHASING MACH. ALL RIGHTS RESERVED.</p></div>
+  </footer>
+</body>
+</html>
